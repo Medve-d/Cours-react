@@ -5,13 +5,13 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 100, 0, 0;
+  --background-start-rgb: 214, 219, 0;
+  --background-end-rgb: 120, 255, 255;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
-    #16abff33 0deg,
+    #16aaff 0deg,
     #0885ff33 55deg,
     #54d6ff33 120deg,
     #0071ff33 160deg,
@@ -19,7 +19,7 @@
   );
   --secondary-glow: radial-gradient(
     rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
+    #7e0000
   );
 
   --tile-start-rgb: 239, 245, 249;
@@ -49,7 +49,7 @@
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
       to bottom right,
-      rgba(1, 65, 255, 0),
+      rgba(0, 255, 0, 0),
       rgba(1, 65, 255, 0),
       rgba(1, 65, 255, 0.3)
     );
@@ -57,7 +57,7 @@
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
     --tile-border: conic-gradient(
-      #ffffff80,
+      #95000080,
       #ffffff40,
       #ffffff30,
       #ffffff20,
@@ -102,6 +102,6 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: red;
   }
 }

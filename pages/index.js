@@ -17,12 +17,12 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
+            LE début du début;
             <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="http://localhost:3000"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,20 +39,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://google.com"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -61,7 +50,7 @@ export default function Home() {
               Docs <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+            Plus de doc concernant Next.js&nbsp;ici.
             </p>
           </a>
 
@@ -72,7 +61,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Apprendre <span>-&gt;</span>
             </h2>
             <p>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
@@ -86,7 +75,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              Exemples <span>-&gt;</span>
             </h2>
             <p>
               Discover and deploy boilerplate example Next.js&nbsp;projects.
@@ -100,7 +89,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Deployer <span>-&gt;</span>
             </h2>
             <p>
               Instantly deploy your Next.js site to a shareable URL
