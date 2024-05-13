@@ -5,9 +5,8 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground-rgb: 100, 0, 0;
-  --background-start-rgb: 214, 219, 0;
-  --background-end-rgb: 120, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -104,4 +103,27 @@ a {
   html {
     color-scheme: red;
   }
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin-right: 20px; /* Espace entre les éléments */
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li:last-child {
+  margin-right: 0; /* Aucun espace à droite pour le dernier élément */
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #333; /* Couleur des liens */
 }
